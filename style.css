@@ -1,7 +1,80 @@
-p{
-    
+@import url("https://use.typekit.net/uqq8vai.css");
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #090E2D;
+    font-size: 1.1em;
+    color: white;
+    font-family: garamond-fb-text, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-kerning: auto;
+    line-height: 1.5em;
 }
-
+h2:nth-of-type(2n+3){ /* odd chapters */
+    margin-right: 50%;
+    text-align: right;
+    font-size: 1.5em;
+}
+h2:nth-of-type(2n+4){ /* even chapters */
+    margin-left: 50%;
+    font-size: 1.5em;
+}
+p{
+    margin-left: 50%;
+    width: 35%;
+}
+p.toc{
+    color: white;
+}
+p:nth-of-type(n+61){ /* chapter 2 */
+    margin-left: 15%;
+}
+p:nth-of-type(n+166){ /* chapter 3 */
+    margin-left: 50%;
+}
+p:nth-of-type(n+358){ /* chapter 4 */
+    margin-left: 15%;
+}
+p:nth-of-type(n+488){ /* chapter 5 */
+    margin-left: 50%;
+}
+p:nth-of-type(n+573){ /* chapter 6 */
+    margin-left: 15%;
+}
+p:nth-of-type(n+705){ /* chapter 7 */
+    margin-left: 50%;
+}
+p:nth-of-type(n+726){ /* chapter 8 */
+    margin-left: 15%;
+}
+p:nth-of-type(n+890){ /* chapter 9 */
+    margin-left: 50%;
+}
+p:nth-of-type(n+916){ /* chapter 10 */
+    margin-left: 15%;
+}
+p:nth-of-type(n+1016){ /* chapter 11 */
+    margin-left: 50%;
+}
+p:nth-of-type(n+1145){ /* chapter 12 */
+    margin-left: 15%;
+}
+p:nth-of-type(n+1166){ /* chapter 13 */
+    margin-left: 50%;
+}
+p:nth-of-type(n+1238){ /* chapter 14 */
+    margin-left: 15%;
+}
+p:nth-of-type(n+1317){ /* chapter 15 */
+    margin-left: 50%;
+}
+p:nth-of-type(n+1417){ /* chapter 16 */
+    margin-left: 15%;
+}
+p:nth-of-type(n+1499){ /* chapter 17 */
+    margin-left: 50%;
+}
 /*------------------------------------------SMART PHONES------------------------------------------*/
 @media only screen and (max-width: 500px){
 
