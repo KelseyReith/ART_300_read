@@ -98,7 +98,7 @@ p:nth-of-type(n+1499){ /* chapter 17 */
         margin-left: 10%;
         width: 85%;
         font-size: 1em;
-        line-height: 1em;
+        line-height: 1.5em;
     }
     p:nth-of-type(n+61){ /* chapter 2 */
         margin-left: 5%;
