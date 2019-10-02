@@ -76,20 +76,23 @@ p:nth-of-type(n+1499){ /* chapter 17 */
     margin-left: 50%;
 }
 /*------------------------------------------SMART PHONES------------------------------------------*/
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 800px){
     h2:nth-of-type(2n+3){ /* odd chapters */
-        margin-right: 10%;
-        margin-left: 30%;
+        margin-right: 5%;
+        margin-left: 10%;
         text-align: left;
-        font-size: 1.5em;
-        font-weight: 700;
-        line-height: 1.5em;
+        font-size: 1.2em;
+        font-weight: 400;
+        line-height: 1.2em;
     }
     h2:nth-of-type(2n+4){ /* even chapters */
         margin-left: 5%;
-        font-size: 1.5em;
-        font-weight: 700;
-        line-height: 1.5em;
+        font-size: 1.2em;
+        font-weight: 400;
+        line-height: 1.2em;
+    }
+    p.toc{
+        margin-left: 5%;
     }
     p{
         margin-left: 10%;
