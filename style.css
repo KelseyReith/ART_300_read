@@ -2,7 +2,6 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #090E2D;
     font-size: 1.1em;
     color: white;
     font-family: garamond-fb-text, serif;
@@ -10,6 +9,36 @@ body{
     font-style: normal;
     font-kerning: auto;
     line-height: 1.5em;
+    background-image: url("/desktop.jpg");
+    background-attachment: fixed;
+}
+hr{
+    opacity: 0;
+}
+pre:nth-of-type(1){
+    margin-left: 50%;
+    font-family: garamond-fb-text, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+h1{ /* title */
+    font-size: 8em;
+    margin-right: 50%;
+    text-align: right;
+}
+h2:nth-of-type(1){ /* subtitle */
+    font-size: 4em;
+    margin-right: 50%;
+    text-align: right;
+}
+h2:nth-of-type(2){ /* author */
+    font-size: 2.5em;
+    margin-right: 50%;
+    text-align: right;
+}
+h4{ /* edition */
+    margin-right: 50%;
+    text-align: right;
 }
 h2:nth-of-type(2n+3){ /* odd chapters */
     margin-right: 50%;
@@ -24,7 +53,7 @@ p{
     margin-left: 50%;
     width: 35%;
 }
-p.toc{
+a{ /* contents */
     color: white;
 }
 p:nth-of-type(n+61){ /* chapter 2 */
@@ -75,19 +104,73 @@ p:nth-of-type(n+1417){ /* chapter 16 */
 p:nth-of-type(n+1499){ /* chapter 17 */
     margin-left: 50%;
 }
+h3{ /* second star to the right */
+ margin-left: 50%;
+}
+pre:nth-of-type(n+2){ /* pirates */
+    margin-right: 50%;
+    text-align: right;
+    font-family: garamond-fb-text, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+pre:nth-of-type(n+5){ /* song */
+    margin-left: 50%;
+    font-family: garamond-fb-text, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+p:nth-of-type(1667){ /* the end */
+    font-size: 2.5em;
+}
+pre:last-of-type{ /* license */
+    margin-left: 15%;
+    text-align: left;
+}
 /*------------------------------------------SMART PHONES------------------------------------------*/
 @media only screen and (max-width: 800px){
+    body{
+        background-image: url("/phone.jpg");
+        background-attachment: fixed;
+    }
+    pre:nth-of-type(1){
+        margin-left: 5%;
+        font-size: .5em;
+        line-height: 1.5em;
+    }
+    h1{ /* title */
+        font-size: 5em;
+        margin-right: 5%;
+        text-align: right;
+    }
+    h2:nth-of-type(1){ /* subtitle */
+        font-size: 2.5em;
+        margin-right: 5%;
+        text-align: right;
+    }
+    h2:nth-of-type(2){ /* author */
+        font-size: 1.6em;
+        margin-right: 5%;
+        text-align: right;
+    }
+    h4{ /* edition */
+        margin-right: 5%;
+        text-align: right;
+    }
+  p.toc{
+        margin-left: 5%;
+    }
     h2:nth-of-type(2n+3){ /* odd chapters */
         margin-right: 5%;
         margin-left: 10%;
         text-align: left;
-        font-size: 1.2em;
+        font-size: 2em;
         font-weight: 400;
         line-height: 1.2em;
     }
     h2:nth-of-type(2n+4){ /* even chapters */
         margin-left: 5%;
-        font-size: 1.2em;
+        font-size: 2em;
         font-weight: 400;
         line-height: 1.2em;
     }
@@ -149,9 +232,61 @@ p:nth-of-type(n+1499){ /* chapter 17 */
         margin-left: 10%;
     }
 }
-
+    h3{ /* second star to the right */
+    margin-left: 5%;
+   }
+   pre:nth-of-type(n+2){ /* pirates */
+       margin-right: 5%;
+       text-align: right;
+       font-family: garamond-fb-text, serif;
+       font-weight: 300;
+       font-style: normal;
+   }
+   pre:nth-of-type(n+5){ /* song */
+       margin-right: 5%;
+       text-align: right;
+       font-family: garamond-fb-text, serif;
+       font-weight: 300;
+       font-style: normal;
+   }
+   p:nth-of-type(1667){ /* the end */
+       font-size: 2.5em;
+   }
+   pre:last-of-type{ /* license */
+       margin-left: 5%;
+       text-align: left;
+   }
 /*---------------------------------------------TABLETS---------------------------------------------*/
 @media only screen and (min-width: 800px) and (max-width:1000px){
+    body{
+        background-image: url("/tablet.jpg");
+        background-attachment: fixed;
+    }
+    pre:nth-of-type(1){
+        margin-left: 5%;
+    }
+    h1{ /* title */
+        font-size: 8em;
+        margin-right: 5%;
+        text-align: right;
+    }
+    h2:nth-of-type(1){ /* subtitle */
+        font-size: 4em;
+        margin-right: 5%;
+        text-align: right;
+    }
+    h2:nth-of-type(2){ /* author */
+        font-size: 2.5em;
+        margin-right: 5%;
+        text-align: right;
+    }
+    h4{ /* edition */
+        margin-right: 5%;
+        text-align: right;
+    }
+  p.toc{
+        margin-left: 5%;
+    }
     h2:nth-of-type(2n+3){ /* odd chapters */
         margin-right: 10%;
         margin-left: 30%;
@@ -221,3 +356,26 @@ p:nth-of-type(n+1499){ /* chapter 17 */
         margin-left: 30%;
     }
 }
+h3{ /* second star to the right */
+    margin-left: 10%;
+   }
+   pre:nth-of-type(n+2){ /* pirates */
+       margin-right: 70%;
+       text-align: right;
+       font-family: garamond-fb-text, serif;
+       font-weight: 300;
+       font-style: normal;
+   }
+   pre:nth-of-type(n+5){ /* song */
+       margin-left: 65%;
+       font-family: garamond-fb-text, serif;
+       font-weight: 300;
+       font-style: normal;
+   }
+   p:nth-of-type(1667){ /* the end */
+       font-size: 2.5em;
+   }
+   pre:last-of-type{ /* license */
+       margin-left: 15%;
+       text-align: left;
+   }
