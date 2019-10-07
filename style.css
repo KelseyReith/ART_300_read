@@ -28,16 +28,19 @@ h1{ /* title */
     font-size: 8em;
     margin-right: 50%;
     text-align: right;
+    line-height: 1em;
 }
 h2:nth-of-type(1){ /* subtitle */
     font-size: 4em;
     margin-right: 50%;
     text-align: right;
+    line-height: 1em;
 }
 h2:nth-of-type(2){ /* author */
     font-size: 2.5em;
     margin-right: 50%;
     text-align: right;
+    line-height: 1em;
 }
 h4{ /* edition */
     margin-right: 50%;
@@ -46,17 +49,19 @@ h4{ /* edition */
 h2:nth-of-type(2n+3){ /* odd chapters */
     margin-right: 50%;
     text-align: right;
-    font-size: 2em;
+    font-size: 2.2em;
+    line-height: 1em;
 }
 h2:nth-of-type(2n+4){ /* even chapters */
     margin-left: 50%;
-    font-size: 2em;
+    font-size: 2.2em;
+    line-height: 1em;
 }
 p{
     margin-left: 50%;
     width: 35%;
-    font-size: 1.2em;
-    line-height: 1.75em;
+    font-size: 1.5em;
+    line-height: 1.8em;
 }
 a{ /* contents */
     color: white;
@@ -118,16 +123,16 @@ pre:nth-of-type(n+2){ /* pirates */
     font-family: garamond-fb-text, serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.2em;
-    line-height: 1.75em;
+    font-size: 1.5em;
+    line-height: 1.8em;
 }
 pre:nth-of-type(n+5){ /* song */
     margin-left: 50%;
     font-family: garamond-fb-text, serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.2em;
-    line-height: 1.75em;
+    font-size: 1.5em;
+    line-height: 1.8em;
 }
 pre:nth-of-type(n+9){ /* pirates */
     margin-right: 50%;
@@ -136,11 +141,11 @@ pre:nth-of-type(n+9){ /* pirates */
     font-family: garamond-fb-text, serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.2em;
-    line-height: 1.75em;
+    font-size: 1.5em;
+    line-height: 1.8em;
 }
 p:nth-of-type(1667){ /* the end */
-    font-size: 2.5em;
+    font-size: 3em;
 }
 pre:last-of-type{ /* license */
     margin-left: 35%;
@@ -203,8 +208,8 @@ pre:last-of-type{ /* license */
     p{
         margin-left: 10%;
         width: 85%;
-        font-size: 1em;
-        line-height: 1.5em;
+        font-size: 1.2em;
+        line-height: 1.75em;
     }
     p:nth-of-type(n+61){ /* chapter 2 */
         margin-left: 5%;
@@ -266,6 +271,8 @@ pre:last-of-type{ /* license */
        font-family: garamond-fb-text, serif;
        font-weight: 300;
        font-style: normal;
+       font-size: 1.2em;
+       line-height: 1.75em;
     }
     pre:nth-of-type(n+5){ /* song */
        margin-right: 5%;
@@ -274,6 +281,8 @@ pre:last-of-type{ /* license */
        font-family: garamond-fb-text, serif;
        font-weight: 300;
        font-style: normal;
+       font-size: 1.2em;
+       line-height: 1.75em;
     }
     pre:nth-of-type(n+9){ /* pirates */
         margin-right: 5%;
@@ -282,6 +291,8 @@ pre:last-of-type{ /* license */
         font-family: garamond-fb-text, serif;
         font-weight: 300;
         font-style: normal;
+        font-size: 1.2em;
+        line-height: 1.75em;
      }
     p:nth-of-type(1667){ /* the end */
        font-size: 2.5em;
