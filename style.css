@@ -118,12 +118,26 @@ pre:nth-of-type(n+2){ /* pirates */
     font-family: garamond-fb-text, serif;
     font-weight: 300;
     font-style: normal;
+    font-size: 1.2em;
+    line-height: 1.75em;
 }
 pre:nth-of-type(n+5){ /* song */
     margin-left: 50%;
     font-family: garamond-fb-text, serif;
     font-weight: 300;
     font-style: normal;
+    font-size: 1.2em;
+    line-height: 1.75em;
+}
+pre:nth-of-type(n+9){ /* pirates */
+    margin-right: 50%;
+    margin-left: 0%;
+    text-align: right;
+    font-family: garamond-fb-text, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2em;
+    line-height: 1.75em;
 }
 p:nth-of-type(1667){ /* the end */
     font-size: 2.5em;
@@ -247,6 +261,7 @@ pre:last-of-type{ /* license */
     }
     pre:nth-of-type(n+2){ /* pirates */
        margin-right: 5%;
+       margin-left: 0%;
        text-align: right;
        font-family: garamond-fb-text, serif;
        font-weight: 300;
@@ -254,11 +269,20 @@ pre:last-of-type{ /* license */
     }
     pre:nth-of-type(n+5){ /* song */
        margin-right: 5%;
+       margin-left: 0%;
        text-align: right;
        font-family: garamond-fb-text, serif;
        font-weight: 300;
        font-style: normal;
     }
+    pre:nth-of-type(n+9){ /* pirates */
+        margin-right: 5%;
+        margin-left: 0%;
+        text-align: right;
+        font-family: garamond-fb-text, serif;
+        font-weight: 300;
+        font-style: normal;
+     }
     p:nth-of-type(1667){ /* the end */
        font-size: 2.5em;
     }
@@ -378,22 +402,34 @@ pre:last-of-type{ /* license */
     text-align: right;
     }
     pre:nth-of-type(n+2){ /* pirates */
-       margin-right: 70%;
+       margin-right: 65%;
+       margin-left: 0%;
        text-align: right;
        font-family: garamond-fb-text, serif;
        font-weight: 300;
        font-style: normal;
        font-size: 1.2em;
-       line-height: 1.75em;
+       line-height: 1.5em;
     }
     pre:nth-of-type(n+5){ /* song */
        margin-left: 65%;
+       text-align: left;
        font-family: garamond-fb-text, serif;
        font-weight: 300;
        font-style: normal;
        font-size: 1.2em;
-       line-height: 1.75em;
+       line-height: 1.5em;
     }
+    pre:nth-of-type(n+9){ /* pirates */
+        margin-right: 65%;
+        margin-left: 0%;
+        text-align: right;
+        font-family: garamond-fb-text, serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.2em;
+        line-height: 1.5em;
+     }
     p:nth-of-type(1667){ /* the end */
        font-size: 2.5em;
     }
