@@ -185,7 +185,7 @@ pre:last-of-type{ /* license */
         margin-right: 5%;
         margin-left: 10%;
         text-align: right;
-        font-size: 2em;
+        font-size: 1.75em;
         font-weight: 400;
         line-height: 1.2em;
     }
@@ -193,7 +193,7 @@ pre:last-of-type{ /* license */
         margin-right: 10%;
         margin-left: 5%;
         text-align: right;
-        font-size: 2em;
+        font-size: 1.75em;
         font-weight: 400;
         line-height: 1.2em;
     }
