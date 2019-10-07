@@ -11,6 +11,7 @@ body{
     line-height: 1.5em;
     background-image: url("/desktop.jpg");
     background-attachment: fixed;
+    background-size: 100%;
 }
 hr{
     opacity: 0;
@@ -20,6 +21,8 @@ pre:nth-of-type(1){
     font-family: garamond-fb-text, serif;
     font-weight: 300;
     font-style: normal;
+    font-size: .75em;
+    line-height: 1.7em;
 }
 h1{ /* title */
     font-size: 8em;
@@ -43,15 +46,17 @@ h4{ /* edition */
 h2:nth-of-type(2n+3){ /* odd chapters */
     margin-right: 50%;
     text-align: right;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 h2:nth-of-type(2n+4){ /* even chapters */
     margin-left: 50%;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 p{
     margin-left: 50%;
     width: 35%;
+    font-size: 1.2em;
+    line-height: 1.75em;
 }
 a{ /* contents */
     color: white;
@@ -124,8 +129,10 @@ p:nth-of-type(1667){ /* the end */
     font-size: 2.5em;
 }
 pre:last-of-type{ /* license */
-    margin-left: 15%;
+    margin-left: 35%;
     text-align: left;
+    font-size: .75em;
+    line-height: 1.7em;
 }
 /*------------------------------------------SMART PHONES------------------------------------------*/
 @media only screen and (max-width: 800px){
@@ -157,19 +164,21 @@ pre:last-of-type{ /* license */
         margin-right: 5%;
         text-align: right;
     }
-  p.toc{
+    p.toc{
         margin-left: 5%;
     }
     h2:nth-of-type(2n+3){ /* odd chapters */
         margin-right: 5%;
         margin-left: 10%;
-        text-align: left;
+        text-align: right;
         font-size: 2em;
         font-weight: 400;
         line-height: 1.2em;
     }
     h2:nth-of-type(2n+4){ /* even chapters */
+        margin-right: 10%;
         margin-left: 5%;
+        text-align: right;
         font-size: 2em;
         font-weight: 400;
         line-height: 1.2em;
@@ -231,31 +240,35 @@ pre:last-of-type{ /* license */
     p:nth-of-type(n+1499){ /* chapter 17 */
         margin-left: 10%;
     }
-}
     h3{ /* second star to the right */
     margin-left: 5%;
-   }
-   pre:nth-of-type(n+2){ /* pirates */
+    margin-right: 10%;
+    text-align: right;
+    }
+    pre:nth-of-type(n+2){ /* pirates */
        margin-right: 5%;
        text-align: right;
        font-family: garamond-fb-text, serif;
        font-weight: 300;
        font-style: normal;
-   }
-   pre:nth-of-type(n+5){ /* song */
+    }
+    pre:nth-of-type(n+5){ /* song */
        margin-right: 5%;
        text-align: right;
        font-family: garamond-fb-text, serif;
        font-weight: 300;
        font-style: normal;
-   }
-   p:nth-of-type(1667){ /* the end */
+    }
+    p:nth-of-type(1667){ /* the end */
        font-size: 2.5em;
-   }
-   pre:last-of-type{ /* license */
+    }
+    pre:last-of-type{ /* license */
        margin-left: 5%;
        text-align: left;
-   }
+       font-size: .5em;
+       line-height: 1.5em;
+    }
+}
 /*---------------------------------------------TABLETS---------------------------------------------*/
 @media only screen and (min-width: 800px) and (max-width:1000px){
     body{
@@ -264,6 +277,8 @@ pre:last-of-type{ /* license */
     }
     pre:nth-of-type(1){
         margin-left: 5%;
+        font-size: .75em;
+        line-height: 1.5em;
     }
     h1{ /* title */
         font-size: 8em;
@@ -284,19 +299,21 @@ pre:last-of-type{ /* license */
         margin-right: 5%;
         text-align: right;
     }
-  p.toc{
-        margin-left: 5%;
+    p.toc{
+        margin-left: 10%;
     }
     h2:nth-of-type(2n+3){ /* odd chapters */
         margin-right: 10%;
-        margin-left: 30%;
+        margin-left: 10%;
         text-align: left;
         font-size: 1.8em;
         font-weight: 700;
         line-height: 1.5em;
     }
     h2:nth-of-type(2n+4){ /* even chapters */
+        margin-right: 10%;
         margin-left: 10%;
+        text-align: right;
         font-size: 1.8em;
         font-weight: 700;
         line-height: 1.5em;
@@ -305,7 +322,7 @@ pre:last-of-type{ /* license */
         margin-left: 30%;
         width: 60%;
         font-size: 1.2em;
-        line-height: 1.8em;
+        line-height: 1.5em;
     }
     p:nth-of-type(n+61){ /* chapter 2 */
         margin-left: 10%;
@@ -355,27 +372,35 @@ pre:last-of-type{ /* license */
     p:nth-of-type(n+1499){ /* chapter 17 */
         margin-left: 30%;
     }
-}
-h3{ /* second star to the right */
+    h3{ /* second star to the right */
+    margin-right: 10%;
     margin-left: 10%;
-   }
-   pre:nth-of-type(n+2){ /* pirates */
+    text-align: right;
+    }
+    pre:nth-of-type(n+2){ /* pirates */
        margin-right: 70%;
        text-align: right;
        font-family: garamond-fb-text, serif;
        font-weight: 300;
        font-style: normal;
-   }
-   pre:nth-of-type(n+5){ /* song */
+       font-size: 1.2em;
+       line-height: 1.75em;
+    }
+    pre:nth-of-type(n+5){ /* song */
        margin-left: 65%;
        font-family: garamond-fb-text, serif;
        font-weight: 300;
        font-style: normal;
-   }
-   p:nth-of-type(1667){ /* the end */
+       font-size: 1.2em;
+       line-height: 1.75em;
+    }
+    p:nth-of-type(1667){ /* the end */
        font-size: 2.5em;
-   }
-   pre:last-of-type{ /* license */
+    }
+    pre:last-of-type{ /* license */
        margin-left: 15%;
        text-align: left;
-   }
+       font-size: .75em;
+       line-height: 1.5em;
+    }
+}
